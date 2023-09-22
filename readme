@@ -1,0 +1,6 @@
+1. maven local repository - execute in mvn shell
+mvn deploy:deploy-file -Durl=file:./lib -Dfile=./lib/desktop-game-engine.jar -DgroupId=com.javarush -DartifactId=desktop-game-engine -Dpackaging=jar -Dversion=1.0
+mvn install:install-file -Dfile=./lib/desktop-game-engine.jar -DgroupId=com.javarush -DartifactId=desktop-game-engine -Dversion=1.0  -Dpackaging=jar
+
+
+2.cmd -> C:\Users\Darma\.jdks\corretto-18.0.2\bin\java.exe -jar project-maven-1.0.jar
